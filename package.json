@@ -1,5 +1,5 @@
 {
-  "name": "video-capture-js",
+  "name": "screen_capture",
   "version": "1.0.0",
   "description": "Screen Capture with Twilio",
   "main": "index.js",
