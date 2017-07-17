@@ -42,7 +42,3 @@ jspm_packages
 # Twilio credentials file
 .env
 
-# The generated index.js
-capture/create/public/index.js
-capture/connect/public/index.js
-

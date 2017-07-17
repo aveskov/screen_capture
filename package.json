@@ -12,7 +12,7 @@
     "build:capture": "npm run build:capture:connect && npm run build:capture:create",
     "build:capture:connect": "browserify capture/connect/src/index.js > capture/connect/public/index.js",
     "build:capture:create": "browserify capture/create/src/index.js > capture/create/public/index.js",
-    "start": "npm run clean && npm run build && node server"
+    "start" : "node server"
   },
   "repository": {
     "type": "git",
@@ -22,11 +22,8 @@
   "dependencies": {
     "dotenv": "^4.0.0",
     "express": "^4.15.2",
-    "prismjs": "^1.6.0",
     "twilio": "^3.0.0",
-    "twilio-video": "^1.0.0"
-  },
-  "devDependencies": {
+    "twilio-video": "^1.0.0",
     "browserify": "^14.3.0",    
     "rimraf": "^2.6.1"
   }
